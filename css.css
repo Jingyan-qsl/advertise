@@ -228,10 +228,13 @@
 }
 .sidernav-li li{
   height: 40px;
-  width: 110px;
+  width: 113px;
   display: block;
   float: left;
   border-right: #D8EDE8 1px solid;
+}
+.sidernav-li li:last-child{
+  border-right: none;
 }
 .sidernav ul li img{
   margin-top: 2px;
